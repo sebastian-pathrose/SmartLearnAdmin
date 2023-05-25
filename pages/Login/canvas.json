@@ -361,7 +361,7 @@
                               "isDeprecated": false,
                               "rightColumn": 49,
                               "isDefaultClickDisabled": true,
-                              "iconName": "unlock",
+                              "iconName": "unresolve",
                               "widgetId": "ubvqeg3urp",
                               "minWidth": 120,
                               "isVisible": true,
@@ -437,6 +437,107 @@
                               "buttonVariant": "TERTIARY",
                               "iconAlign": "left",
                               "placement": "CENTER"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "mobileBottomRow": 28,
+                              "widgetName": "IconButton1",
+                              "onClick": "{{JSObject2.myFun2();}}",
+                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "iconName"
+                                }
+                              ],
+                              "displayName": "Icon Button",
+                              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 24,
+                              "bottomRow": 28,
+                              "parentRowSpace": 10,
+                              "type": "ICON_BUTTON_WIDGET",
+                              "hideCard": false,
+                              "mobileRightColumn": 9,
+                              "animateLoading": true,
+                              "parentColumnSpace": 10.239715576171875,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 5,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "buttonColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "iconName"
+                                }
+                              ],
+                              "isDisabled": false,
+                              "key": "o9c7qc4b0e",
+                              "isDeprecated": false,
+                              "rightColumn": 9,
+                              "iconName": "{{ \n  (function() {\n      if (appsmith.store.iconName === \"carot-right\") {\n        return \"minus\";\n      } else {\n        return \"plus\";\n      }\n   })()\n}}",
+                              "widgetId": "gm4voazrfr",
+                              "minWidth": 50,
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "76fqz0kz39",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "mobileTopRow": 24,
+                              "responsiveBehavior": "hug",
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "mobileLeftColumn": 5,
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "mobileBottomRow": 28,
+                              "widgetName": "IconButton2",
+                              "buttonColor": "#e4e4e7",
+                              "displayName": "Icon Button",
+                              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 24,
+                              "bottomRow": 28,
+                              "tooltip": "Button to Sign In",
+                              "parentRowSpace": 10,
+                              "type": "ICON_BUTTON_WIDGET",
+                              "hideCard": false,
+                              "mobileRightColumn": 61,
+                              "animateLoading": true,
+                              "parentColumnSpace": 10.239715576171875,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 53,
+                              "dynamicBindingPathList": [],
+                              "isDisabled": false,
+                              "key": "6iqa7cy26j",
+                              "isDeprecated": false,
+                              "rightColumn": 57,
+                              "iconName": "help",
+                              "widgetId": "uhfndf7n9r",
+                              "minWidth": 50,
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "76fqz0kz39",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "mobileTopRow": 24,
+                              "responsiveBehavior": "hug",
+                              "borderRadius": "0.375rem",
+                              "mobileLeftColumn": 57,
+                              "buttonVariant": "PRIMARY"
                             }
                           ],
                           "key": "xoqs3j5dze",
